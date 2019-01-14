@@ -1,0 +1,36 @@
+body {font-family: 'Montserrat', sans-serif;
+background-color: #5E8299;
+color: white;
+padding: 1rem;
+}
+
+h1, h2 {background-color: #9FBACC;
+padding: 2rem;}
+
+table {font-family: 'Roboto Mono', sans-serif;
+font-size: 0.8rem;
+color: white;
+}
+
+p {font-family: 'Roboto Mono', sans-serif;
+font-size: 0.8rem;
+color: white;
+margin-left: 2rem;
+margin-right: 2rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+padding: 0;
+}
+
+img {margin: 4rem;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*  width: 50%; */
+}
+
+small { margin: auto; }
