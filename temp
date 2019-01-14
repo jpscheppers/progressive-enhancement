@@ -1,0 +1,7 @@
+
+    Utilise les balises suivantes: h1, h2, blockquote, q, img, p, img, hr, figure et caption, table, th, tr, td, ul ou ol et li.
+    Retrouve, pour chacune de ces balises, l'origine de leur nom (c'est comme cela qu'on les retient). En cas de doute, cherche la réponse sur html5doctor.com.
+    Ajoute 2 ou 3 liens de ton choix dans la page HTML via la balise a
+    Y-a-t-il une partie que l'on pourrait considérer comme une entête ? Si oui, regroupe la dans une balise header.
+    Et un pied de page ? Si oui, regroupe ce contenu-là dans une balise footer
+    Mets toutes les instances des mots "Bien" et "Mal" dans une balise span , em ou strong.
