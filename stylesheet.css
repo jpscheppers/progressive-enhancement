@@ -17,9 +17,8 @@ body {
 
 h1 {
   font-family: 'Roboto Mono', sans-serif;
-  background-color: #9FBACC;
+  background-color: #ededed;
   padding: 2rem;
-  color: #fff;
 }
 
 h2 {
@@ -82,12 +81,12 @@ small.yellow {
 
 .bien {
   text-transform: uppercase;
-  color: rgb(76, 162, 24);
+  color: rgb(51, 107, 18);
 }
 
 .mal {
   text-transform: uppercase;
-  color: red;
+  color: rgb(170, 20, 20);
 }
 
 .center {
