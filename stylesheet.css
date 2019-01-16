@@ -1,5 +1,7 @@
+/* <----------------- tags ---------------> */
+
 body {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
   padding: 1rem;
   width: 90%;
@@ -13,18 +15,16 @@ body {
   background-size: cover;
 }
 
-a:hover {
-  background-color: yellow;
-}
-
-a:visited {
-  color: rgb(176, 88, 24);
-}
-
-h1, h2 {
+h1 {
+  font-family: 'Roboto Mono', sans-serif;
   background-color: #9FBACC;
   padding: 2rem;
   color: #fff;
+}
+
+h2 {
+  font-family: 'Roboto Mono', sans-serif;
+  padding: 2rem;
 }
 
 q.peon {
@@ -35,32 +35,6 @@ q.peon {
 q.villager {
   font-style: italic;
   border-left: 10px solid rgb(221, 139, 43);
-}
-
-table {
-  font-size: 0.8rem;
-  background-color: white;
-  border: 1px dashed #5E8299;
-  margin: 2rem;
-}
-
-#myTable tbody tr:nth-child(even) {
-    background-color:#FFF;
-}
-
-#myTable tbody tr:nth-child(odd) {
-    color:#CC1100;
-    background-color:#e6e6e6;
-}
-
-/*tr.greyrow {
-  background-color: rgb(168, 168, 168);
-  border: 0;
-}*/
-
-td {
-  padding: 0.5rem;
-  border: 0;
 }
 
 p {
@@ -96,6 +70,26 @@ blockquote {
 figcaption {
   font-size: 0.8rem;}
 
+
+small {
+  margin: auto;
+}
+small.yellow {
+  background-color: rgb(252, 246, 164);
+}
+
+/* <----------------- all-purpose classes ---------------> */
+
+.bien {
+  text-transform: uppercase;
+  color: rgb(76, 162, 24);
+}
+
+.mal {
+  text-transform: uppercase;
+  color: red;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -127,19 +121,41 @@ figcaption {
   padding-right: 30px;
 }
 
-small {
-  margin: auto;
-}
-small.yellow {
-  background-color: rgb(252, 246, 164);
+/* <----------------- a:link ---------------> */
+
+
+a:hover {
+  background-color: yellow;
 }
 
-.bien {
-  text-transform: uppercase;
-  color: rgb(76, 162, 24);
+a:visited {
+  color: rgb(176, 88, 24);
 }
 
-.mal {
-  text-transform: uppercase;
-  color: red;
+/* <----------------- table style ---------------> */
+
+table {
+  font-size: 0.8rem;
+  background-color: white;
+  border: 1px dashed #5E8299;
+  margin: 2rem;
+}
+
+#myTable tbody tr:nth-child(even) {
+    background-color:#FFF;
+}
+
+#myTable tbody tr:nth-child(odd) {
+    color:#CC1100;
+    background-color:#e6e6e6;
+}
+
+/*tr.greyrow {
+  background-color: rgb(168, 168, 168);
+  border: 0;
+}*/
+
+td {
+  padding: 0.5rem;
+  border: 0;
 }
