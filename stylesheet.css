@@ -31,14 +31,16 @@ li {
   padding-bottom: 0.5rem;
 }
 
-q.peon {
+blockquote.peon {
   font-style: italic;
-  border-left: 10px solid rgb(95, 137, 200);
+  border-left: 5px solid rgb(95, 137, 200);
+  padding-left: 10px;
 }
 
-q.villager {
+blockquote.villager {
   font-style: italic;
-  border-left: 10px solid rgb(221, 139, 43);
+  border-left: 5px solid rgb(221, 139, 43);
+  padding-left: 10px;
 }
 
 p {
@@ -54,14 +56,10 @@ p {
 
 img {
   float: right;
-  margin: 4rem;
-  margin-left: 50px;
-  display: block;
-  overflow: hidden;
-
+  margin: 2rem;
 }
 
-blockquote {
+/*blockquote {
   width: 50%;
   font-size: 1.4rem;
   padding: 10px;
@@ -70,7 +68,7 @@ blockquote {
   margin-bottom: 80px;
   background-color: #ededed;
   border-left: dotted red 3px;
-}
+}*/
 
 caption {
   font-size: 0.8rem;}
@@ -101,15 +99,19 @@ small.yellow {
   /*  width: 50%; */
 }
 
-.pplType01 {
+/* <----------------- list with background-image ---------------> */
+
+
+ol.pplType li:nth-child(1) {
   background-image: url("bien.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding-right: 30px;
+  padding-right: -500px;
 }
 
-.pplType02 {
+
+ol.pplType li:nth-child(2) {
   background-image: url("mal.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -117,7 +119,7 @@ small.yellow {
   padding-right: 30px;
 }
 
-.pplTypeCat {
+ol.pplType li:nth-child(3) {
   background-image: url("chat.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -140,9 +142,11 @@ a:visited {
 
 table {
   font-size: 0.8rem;
+  width: 350px;
   background-color: white;
   border: 1px dashed #5E8299;
   margin: 2rem;
+  margin: auto;
 }
 
 #myTable tbody tr:nth-child(even) {
@@ -154,11 +158,6 @@ table {
     color:#CC1100;
     background-color:#e6e6e6;
 }
-
-/*tr.greyrow {
-  background-color: rgb(168, 168, 168);
-  border: 0;
-}*/
 
 td {
   padding: 0.5rem;
