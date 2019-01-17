@@ -8,17 +8,19 @@ body {
   margin: auto;
   background: -webkit-linear-gradient(-90deg, rgb(235, 235, 235), rgb(255, 255, 255));
   background: linear-gradient(-90deg, rgb(235, 235, 235), rgb(255, 255, 255));
-  background-image: url("bgimage.jpg");
+  background-image: url("abstract-art-blur-788891.jpg");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left  bottom;
   /* background-attachment: fixed; */
   background-size: cover;
 }
 
 h1 {
+  font-size: 2.5rem;
   font-family: 'Roboto Mono', sans-serif;
   background-color: #ededed;
-  padding: 2rem;
+  padding: 3rem;
+  background: url("thonk.png") repeat;
 }
 
 h2 {
